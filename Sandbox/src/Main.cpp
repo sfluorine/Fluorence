@@ -9,7 +9,7 @@ int main()
     auto shader = FL::Shader::LoadFromFile("res/shaders/vertex.glsl",
                                            "res/shaders/fragment.glsl");
 
-    auto texture = FL::Texture::LoadFromFile("res/models/skin_man.png");
+    auto texture = FL::Texture::LoadFromFile("res/textures/skin_man.png");
 
     auto model = FL::Model::LoadFromFile("res/models/basicCharacter.obj");
 
